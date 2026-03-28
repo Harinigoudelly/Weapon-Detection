@@ -2,7 +2,6 @@ streamlit
 pillow
 opencv-python-headless
 numpy
-weapon-detection-app/
 │
 ├── app.py
 ├── model.py
