@@ -55,3 +55,7 @@ elif option == "Video":
             frame_window.image(frame, channels="BGR")
 
         cap.release()
+        import os
+
+port = int(os.environ.get("PORT", 8501))
+st.run(port=port)
